@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Blue Note</string>
+    <string name="you_note">Ваша заметка</string>
+    <string name="youNote">Ваша заметка</string>
+    <string name="description">Description</string>
+    <string name="your_note_delete">Ваша заметка удалена</string>
+</resources>

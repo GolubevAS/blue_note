@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "194028708163",
+    "project_id": "blue-note-23af9",
+    "storage_bucket": "blue-note-23af9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194028708163:android:9753fb25ec07a9fbbe8ff6",
+        "android_client_info": {
+          "package_name": "ru.ggproject.bluenote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194028708163-ld3idmh709eooo2kagqg04slkmfkiu07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnIFsXetIdZK4r0OwQvZvHv-rNvcfZ4aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194028708163-ld3idmh709eooo2kagqg04slkmfkiu07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

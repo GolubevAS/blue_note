@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BlueNote" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+<!-- Primary brand color. -->
+        <item name="colorPrimary">@color/statusBarColor</item>
+        <item name="colorPrimaryVariant">@color/statusBarColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/statusBarColor</item>
+        <item name="colorSecondaryVariant">@color/statusBarColor</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+    </style>
+
+ <!-- Customize alert dialog theme -->
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">#FF1744</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Customize alert dialog theme -->
+
+    <!-- Customize Toast -->
+    <style name="deleteToast">
+        <item name="stColorBackground">#CD00B0FF</item>
+        <item name="stTextColor">@color/white</item>
+        <item name="stIconStart">@drawable/ic_delete</item>
+    </style>
+
+    <style name="saveToast">
+        <item name="stColorBackground">#C900B0FF</item>
+        <item name="stTextColor">@color/white</item>
+        <item name="stIconStart">@drawable/ic_save</item>
+    </style>
+
+    <style name="enterToast">
+        <item name="stColorBackground">#DC00B0FF</item>
+        <item name="stTextColor">@color/white</item>
+        <item name="stIconStart">@drawable/ic_wrap_text</item>
+    </style>
+    <!-- Customize Toast -->
+
+</resources>
